@@ -216,13 +216,19 @@ a {
 
 
 .event-button {
-    font-size: 16px;
-    background-color: white;
-    padding: 16px 40px;
-    border: 2px solid plum;
+    display: flex;
+    justify-content: center;
+    height: 25px;
+    /* background: rgb(192, 192, 192); */
+    padding: 10px;
+    text-align: center;
+    border: plum solid 2px;
+    border-radius: 5px;
     color: plum;
+    font-weight: bold;
+    line-height: 25px;
     transition: 0.3s;
-
+    white-space: normal;
 }
 
 .event-button:hover {
